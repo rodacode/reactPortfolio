@@ -1,0 +1,19 @@
+.card {
+  border: 1px solid #999;
+  border-radius: 5px;
+  width: 320px;
+  margin: 4px;
+  display: inline-block;
+  vertical-align: top;
+
+  img {
+    width: 150px;
+    height: auto;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+}
