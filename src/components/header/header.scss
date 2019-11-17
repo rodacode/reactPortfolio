@@ -1,21 +1,26 @@
-.social-links {
-    li {
-        display: inline-block;
-        padding: 0 5px;
-    }
-
-    i {
-        font-size: 1.4rem;
-        margin: 0 5px;
-    }
-}
-
-.content {
-    width: 100%;
-    margin: 30px auto 0;
+.header {
+    width: 100vw;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     padding-left: 40px;
+    background-color: rgb(6, 57, 223);
+    color: #fff;
+
+    .social-links {
+        li {
+            display: inline-block;
+            padding: 0 5px;
+        }
+
+        i {
+            color: #fff;
+            font-size: 1.4rem;
+            margin: 0 5px;
+        }
+    }
+
+
 
     .title {
         margin: 0;
@@ -29,20 +34,51 @@
 }
 
 ul {
-    margin: 0;
-    padding: 0;
     list-style: none;
 }
 
 li {
-    display: inline-block;
-    padding: 0 20px;
+    padding: 2px 20px;
 }
 
 .explanation-div {
     position: absolute;
     top: -15px;
     right: 0px;
+}
+
+.explanation::before {
+    color: #fff;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+    }
+
+    100% {
+        transform: rotate(-5deg);
+    }
+}
+
+/* Standard syntax */
+@keyframes example {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+    }
+
+    100% {
+        transform: rotate(-5deg);
+    }
 }
 
 @media (min-width: 1024px) {

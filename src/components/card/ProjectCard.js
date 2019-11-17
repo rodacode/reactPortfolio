@@ -1,5 +1,5 @@
 import React from 'react';
-import './card.scss';
+import './projectCard.scss';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -12,6 +12,8 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
         card: {
                 maxWidth: 345,
+                minWidth: 320,
+                margin: 10
         },
 });
 
@@ -32,15 +34,16 @@ const ProjectCard = (props) => {
                                                 {props.title}
                                         </Typography>
                                         <Typography variant="body2" color="textSecondary" component="p">
-                                                <p>{props.text}</p>
-                                                <p><strong>Stack:</strong></p>
-                                                <ul>
-                                                        {props.stack.map(item => (
-                                                                <li> <i className={item.icon}></i>{item.name}</li>
-                                                        ))
-                                                        }
-                                                </ul>
+                                                {props.text}
                                         </Typography>
+
+                                        <strong>Stack:</strong>
+                                        <ul>
+                                                {props.stack.map((item, index) => (
+                                                        <li key={index}><i className={item.icon}></i>{item.name}</li>
+                                                ))
+                                                }
+                                        </ul>
                                 </CardContent>
                         </CardActionArea>
                         <CardActions>

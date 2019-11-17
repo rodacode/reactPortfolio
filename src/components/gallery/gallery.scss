@@ -1,0 +1,13 @@
+.gallery__container {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (min-width: 1024px) {
+    .gallery__container {
+        flex-direction: row;
+    }
+}
