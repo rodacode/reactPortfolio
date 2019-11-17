@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Card from '../components/card/Card';
+import ProjectCard from '../components/card/Card';
 import Header from '../components/header/Header';
 
 const items=[{
@@ -312,7 +312,7 @@ const Home = () => {
             <Header />
             <ul>
         {projects.map(item => (
-          <Card key={item.id} title={item.title} imgSrc={item.imgSrc} stack={item.stack}/>
+          <ProjectCard key={item.id} title={item.title} text={item.text} imgSrc={item.imgSrc} stack={item.stack} projectUrl={item.url}/>
         ))}
       </ul>
  

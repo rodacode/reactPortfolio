@@ -1,0 +1,60 @@
+.social-links {
+    li {
+        display: inline-block;
+        padding: 0 5px;
+    }
+
+    i {
+        font-size: 1.4rem;
+        margin: 0 5px;
+    }
+}
+
+.content {
+    width: 100%;
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 40px;
+
+    .title {
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .subtitle {
+        margin: 0;
+        font-size: 12px;
+    }
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.explanation-div {
+    position: absolute;
+    top: -15px;
+    right: 0px;
+}
+
+@media (min-width: 1024px) {
+    .content {
+        .title {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .subtitle {
+            margin: 0;
+            font-size: 16px;
+        }
+    }
+}
