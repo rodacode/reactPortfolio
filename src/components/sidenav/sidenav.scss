@@ -1,5 +1,23 @@
 .sidenav{
     margin: 40px auto;
+    .title{
+        text-align: center;
+    }
+    .devicon-vuejs-plain {
+        color: #47b784;
+      }
+      
+      .devicon-angularjs-plain {
+        color: #da0b37;
+      }
+      
+      .devicon-javascript-plain {
+        color: #f4dc38;
+      }
+      .devicon-react-plain {
+        color: #61DAFB;
+      }
+      
     li{
         margin: 20px;
         .menu-item-container{

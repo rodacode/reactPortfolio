@@ -6,6 +6,7 @@ import './sidenav.scss';
 const Sidenav = (props) => {
     return (
         <div className="sidenav">
+            <p className="title">Projects:</p>
             <ul>
                 <li>
                     <div className="menu-item-container">
