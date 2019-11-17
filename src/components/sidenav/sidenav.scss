@@ -1,0 +1,17 @@
+.sidenav{
+    margin: 40px auto;
+    li{
+        margin: 20px;
+        .menu-item-container{
+            .menu-item{
+                i{
+                padding-right: 5px;
+                }
+            }
+        }
+    }
+    .MuiSwitch-root{
+        float: right;
+        margin-top: -10px;
+    }
+}
