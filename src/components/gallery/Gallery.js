@@ -56,19 +56,23 @@ const items = [
     },
     {
         id:2,
-        title: "Le Parfum",
-        imgSrc: require("../../assets/img/leparfum.png"),
-        text: "This website was made with Vue js",
-        url: "http://leparfumaromas.com.ar",
-        tag: "vue",
+        title: "Dub Siren",
+        imgSrc: require("../../assets/img/dub-siren.png"),
+        text: "Synth made with React and the web audio API using Howler library for managing the audio and Nexus UI for the user interface.",
+        url: "https://nicohardmeier.github.io/dub-siren/",
+        tag: "react",
         stack: [
             {
-                name: "Vue js",
-                icon: "devicon-vuejs-plain"
+                name: "React Hooks",
+                icon: "devicon-react-plain"
             },
             {
-                name: "SASS",
-                icon: "devicon-sass-original"
+                name: "Howler Js",
+                icon: "devicon-javascript-plain"
+            },
+            {
+                name: "Nexus UI",
+                icon: "devicon-javascript-plain"
             }
         ]
     },
@@ -235,34 +239,21 @@ const items = [
                 icon: "devicon-bootstrap-plain"
             }
         ]
-    },
-    {
+    },    {
         id:9,
-        title: "Ramonas Barcelona",
-        imgSrc: require("../../assets/img/ramonas.jpg"),
-        text: "E-commerce development with Prestashop 1.5",
-        url: "http://www.ramonasbarcelona.com",
-        tag: "prestashop",
+        title: "Le Parfum",
+        imgSrc: require("../../assets/img/leparfum.png"),
+        text: "This website was made with Vue js",
+        url: "http://leparfumaromas.com.ar",
+        tag: "vue",
         stack: [
             {
-                name: "Prestashop 1.6",
-                icon: "fa fa-code"
+                name: "Vue js",
+                icon: "devicon-vuejs-plain"
             },
             {
-                name: "CSS3",
-                icon: "fa fa-css3"
-            },
-            {
-                name: "Bootstrap",
-                icon: "devicon-bootstrap-plain"
-            },
-            {
-                name: "JQuery",
-                icon: "devicon-jquery-plain"
-            },
-            {
-                name: "MySql",
-                icon: "devicon-mysql-plain"
+                name: "SASS",
+                icon: "devicon-sass-original"
             }
         ]
     },
