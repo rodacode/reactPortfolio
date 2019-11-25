@@ -1,0 +1,19 @@
+.home__container {
+    .explanation-switch {
+        margin: 20px 0 0 10px;
+        font-size:12px;
+    }
+
+    .gallery__container {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width:1200px) {
+    .home__container {
+
+        .explanation-switch {
+            margin: 20px 0 0 100px;
+        }
+    }
+}

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import ProjectCard from '../card/ProjectCard';
+import { useSelector } from "react-redux";
+
 import './gallery.scss';
 
 const items = [
@@ -30,12 +32,16 @@ const items = [
         id:1,
         title: "Portfolio",
         imgSrc: require("../../assets/img/portfolio.png"),
-        text: "This website was made with Vue js",
+        text: "This website was made with React Hooks, Redux and Material UI",
         url: "https://nicohardmeier.github.io/ytdj/",
-        tag: "vue",
+        tag: "react",
         stack: [
             {
                 name: "React Hooks",
+                icon: "devicon-react-plain"
+            },
+            {
+                name: "Redux",
                 icon: "devicon-react-plain"
             },
             {
@@ -322,11 +328,17 @@ const items = [
     }
 ]
 const Gallery = () => {
-    const [projects, setProjects] = useState(items)
+    const [projects] = useState(items)
+    const selectedTag = useSelector(state => state.selectedTag);
 
     return (
         <div className="gallery__container">
-            {projects.map(item => (
+            {projects.filter((item) => {
+                if (selectedTag === 'all'){
+                    return item 
+                }
+                    return item.tag === selectedTag
+                }).map(item => (
                 <ProjectCard key={item.id} title={item.title} text={item.text} imgSrc={item.imgSrc} stack={item.stack} projectUrl={item.url} />
             ))}
         </div>

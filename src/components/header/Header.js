@@ -4,8 +4,15 @@ import Button from '@material-ui/core/Button';
 import Icon from '@material-ui/core/Icon';
 import './header.scss';
 import Sidenav from '../sidenav/Sidenav';
+import { useSelector } from "react-redux";
 
-
+const ExplanationHeader = () => {
+        return (
+                <div className="explanation-div">
+                <p className="explanation">header component</p>
+        </div>
+        );
+    }
 const Header = (props) => {
         const [state, setState] = React.useState({
                 top: false,
@@ -13,6 +20,7 @@ const Header = (props) => {
                 bottom: false,
                 right: false,
         });
+        const explanation = useSelector(state => state.explanation);
 
         const toggleDrawer = (side, open) => event => {
                 if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
@@ -44,9 +52,8 @@ const Header = (props) => {
                                         </li>
                                 </ul>
                         </div>
-                        <div className="explanation-div">
-                                <p className="explanation">header component</p>
-                        </div>
+                        { explanation ? <ExplanationHeader/> : null }
+
                         <Drawer open={state.left} onClose={toggleDrawer('left', false)}>
                                 <Sidenav/>
                         </Drawer>
