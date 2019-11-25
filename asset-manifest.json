@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/reactPortfolio/static/css/main.4bf9876f.chunk.css",
+    "main.js": "/reactPortfolio/static/js/main.898452da.chunk.js",
+    "main.js.map": "/reactPortfolio/static/js/main.898452da.chunk.js.map",
+    "runtime-main.js": "/reactPortfolio/static/js/runtime-main.d5b23015.js",
+    "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.d5b23015.js.map",
+    "static/js/2.1abfd1d7.chunk.js": "/reactPortfolio/static/js/2.1abfd1d7.chunk.js",
+    "static/js/2.1abfd1d7.chunk.js.map": "/reactPortfolio/static/js/2.1abfd1d7.chunk.js.map",
+    "index.html": "/reactPortfolio/index.html",
+    "precache-manifest.779facacb424c29768d16f7d81c48f0e.js": "/reactPortfolio/precache-manifest.779facacb424c29768d16f7d81c48f0e.js",
+    "service-worker.js": "/reactPortfolio/service-worker.js",
+    "static/css/main.4bf9876f.chunk.css.map": "/reactPortfolio/static/css/main.4bf9876f.chunk.css.map",
+    "static/media/admin_Dashboard.jpg": "/reactPortfolio/static/media/admin_Dashboard.0e84586d.jpg",
+    "static/media/App.scss": "/reactPortfolio/static/media/arrow.dd56d855.png",
+    "static/media/chatroom.jpg": "/reactPortfolio/static/media/chatroom.d3e9d9fd.jpg",
+    "static/media/derdiedas.jpg": "/reactPortfolio/static/media/derdiedas.3808b017.jpg",
+    "static/media/developer.png": "/reactPortfolio/static/media/developer.5da48bb1.png",
+    "static/media/dub-siren.png": "/reactPortfolio/static/media/dub-siren.c532b91a.png",
+    "static/media/envases.jpg": "/reactPortfolio/static/media/envases.0916317b.jpg",
+    "static/media/leparfum.png": "/reactPortfolio/static/media/leparfum.c4e2b312.png",
+    "static/media/lorena_canals.jpg": "/reactPortfolio/static/media/lorena_canals.39b69b7a.jpg",
+    "static/media/ng_cms.jpg": "/reactPortfolio/static/media/ng_cms.4eee72f9.jpg",
+    "static/media/portfolio.png": "/reactPortfolio/static/media/portfolio.22b38018.png",
+    "static/media/tacitus_drum_machine.png": "/reactPortfolio/static/media/tacitus_drum_machine.a28c39ed.png",
+    "static/media/youtubedj.jpg": "/reactPortfolio/static/media/youtubedj.769e45f5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5b23015.js",
+    "static/js/2.1abfd1d7.chunk.js",
+    "static/css/main.4bf9876f.chunk.css",
+    "static/js/main.898452da.chunk.js"
+  ]
+}
