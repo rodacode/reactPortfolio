@@ -11,11 +11,13 @@ a {
 }
 
 .MuiCardContent-root {
-    .stack{
+    min-height: 225px;
+    .stack {
         margin-top: 10px;
         font-weight: bold;
-        font-size:  0.8rem;
+        font-size: 0.8rem;
     }
+
     ul {
         li {
             margin: 3px 0;

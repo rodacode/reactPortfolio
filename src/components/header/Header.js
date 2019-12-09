@@ -43,8 +43,8 @@ const Header = (props) => {
                         { opacity: 0, scale: 0.5, ease: "back" }
                 );
                 TweenMax.from(
-                        '.fa', 4,
-                        { delay:2, x:400, ease: "back", stagger: 0.20 }
+                        '.social__icons', 4,
+                        { delay:2, x:400, ease: "back", rotation: 360, stagger: 0.20 }
                 );
         }, []);
         return (
@@ -55,16 +55,16 @@ const Header = (props) => {
                                 <h1 className="title">Nicolas Hardmeier</h1>
                                 <h4 className="subtitle">Front-end Developer</h4>
                         </div>
-                        <div className="social-links">
+                        <div className="social__links">
                                 <ul>
                                         <li>
                                                 <a href="https://github.com/nicohardmeier">
-                                                        <i className="fa fa-github fa-2x"></i>
+                                                        <i className="social__icons fa fa-github fa-2x"></i>
                                                 </a>
                                         </li>
                                         <li>
                                                 <a href="https://www.linkedin.com/in/nicolas-h-0812baa9/">
-                                                        <i className="fa fa-linkedin fa-2x"></i>
+                                                        <i className="social__icons fa fa-linkedin fa-2x"></i>
                                                 </a>
                                         </li>
                                 </ul>

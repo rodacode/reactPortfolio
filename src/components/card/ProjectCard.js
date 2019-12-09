@@ -22,13 +22,14 @@ const ProjectCard = (props) => {
         return (
                 <Card className={classes.card}>
                         <CardActionArea>
-                                <CardMedia
-                                        component="img"
-                                        alt="Contemplative Reptile"
-                                        height="140"
-                                        image={props.imgSrc}
-                                        title="Contemplative Reptile"
-                                />
+                                <a href={props.projectUrl}>
+                                        <CardMedia
+                                                component="img"
+                                                alt="Project Card"
+                                                height="140"
+                                                image={props.imgSrc}
+                                                title="Project Card"
+                                        /></a>
                                 <CardContent>
                                         <Typography gutterBottom variant="h5" component="h2">
                                                 {props.title}

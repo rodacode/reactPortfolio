@@ -1,13 +1,15 @@
 import React, { useEffect } from 'react';
 import './explanationHome.scss';
 import { TweenMax } from "gsap";
+import CSSPlugin from 'gsap/CSSPlugin';
 
+const C = CSSPlugin;
 
 const ExplanationHome = () => {
     useEffect(() => {
         TweenMax.from(
             '.explanationDiv',
-            { duration: 6, opacity: 0, ease:'rough'}
+            { duration: 18, opacity: 0, ease:'power4'}
         );
 
     }, []);

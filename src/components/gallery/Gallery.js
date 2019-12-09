@@ -254,16 +254,18 @@ const items = [
         ]
     }
 ]
+
 const Gallery = () => {
     const [projects] = useState(items)
     const selectedTag = useSelector(state => state.selectedTag);
+
     useEffect(() => {
         TweenMax.from(
             '.MuiCard-root',
             { duration: 2, opacity: 0, y: 350, ease: "back", stagger: 0.45 }
         );
-
     }, []);
+
     return (
         <div className="gallery__container">
             {projects.filter((item) => {
