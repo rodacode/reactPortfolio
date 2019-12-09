@@ -155,27 +155,23 @@ const items = [
     },
     {
         id: 5,
-        title: "You Tube Dj Battle",
+        title: "You Tube DJ",
         imgSrc: require("../../assets/img/youtubedj.jpg"),
         text: "WebApp to make youtube playlists",
         url: "https://nicohardmeier.github.io/ytdj/",
-        tag: "angular",
+        tag: "react",
         stack: [
             {
-                name: "Angular 5",
-                icon: "devicon-angularjs-plain"
+                name: "React",
+                icon: "devicon-react-plain"
             },
             {
-                name: "Angular Material",
-                icon: "devicon-angularjs-plain"
+                name: "Redux",
+                icon: "devicon-react-plain"
             },
             {
                 name: "Bootstrap",
                 icon: "devicon-bootstrap-plain"
-            },
-            {
-                name: "Firebase",
-                icon: "devicon-angularjs-plain"
             }
         ]
     },
