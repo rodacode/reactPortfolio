@@ -35,19 +35,6 @@ const Sidenav = () => {
                 <li>
                     <div className="menu-item-container">
                         <span className="menu-item">
-                            <i className="devicon-angularjs-plain"></i>Angular
-                                        </span>
-                        <Switch
-                            checked={selectedTag === 'angular'}
-                            onChange={setTag}
-                            value="angular"
-                            color="primary"
-                        />
-                    </div>
-                </li>
-                <li>
-                    <div className="menu-item-container">
-                        <span className="menu-item">
                             <i className="devicon-react-plain"></i>React
                                         </span>
                         <Switch
@@ -67,6 +54,19 @@ const Sidenav = () => {
                             checked={selectedTag === 'vue'}
                             onChange={setTag}
                             value="vue"
+                            color="primary"
+                        />
+                    </div>
+                </li>
+                <li>
+                    <div className="menu-item-container">
+                        <span className="menu-item">
+                            <i className="devicon-angularjs-plain"></i>Angular
+                                        </span>
+                        <Switch
+                            checked={selectedTag === 'angular'}
+                            onChange={setTag}
+                            value="angular"
                             color="primary"
                         />
                     </div>
