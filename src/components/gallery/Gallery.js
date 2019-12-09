@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import ProjectCard from '../card/ProjectCard';
 import { useSelector } from "react-redux";
+import { TweenMax } from "gsap";
 
 import './gallery.scss';
 
 const items = [
     {
-        id:0,
+        id: 0,
         title: "NG CMS",
         imgSrc: require("../../assets/img/ng_cms.jpg"),
         text:
@@ -25,11 +26,15 @@ const items = [
             {
                 name: "Firebase",
                 icon: "devicon-angularjs-plain"
+            },
+            {
+                name: "Angular Material Design",
+                icon: "devicon-angularjs-plain"
             }
         ]
     },
     {
-        id:1,
+        id: 1,
         title: "Portfolio",
         imgSrc: require("../../assets/img/portfolio.png"),
         text: "This website was made with React Hooks, Redux and Material UI",
@@ -49,13 +54,17 @@ const items = [
                 icon: "devicon-react-plain"
             },
             {
+                name: "GSAP Animations",
+                icon: "devicon-javascript-plain"
+            },
+            {
                 name: "SASS",
                 icon: "devicon-sass-original"
             }
         ]
     },
     {
-        id:2,
+        id: 2,
         title: "Dub Siren",
         imgSrc: require("../../assets/img/dub-siren.png"),
         text: "Synth made with React and the web audio API using Howler library for managing the audio and Nexus UI for the user interface.",
@@ -73,11 +82,15 @@ const items = [
             {
                 name: "Nexus UI",
                 icon: "devicon-javascript-plain"
+            },
+            {
+                name: "WEB Audio API",
+                icon: "devicon-html5-plain"
             }
         ]
     },
     {
-        id:3,
+        id: 3,
         title: "Tacitus Drum Machine",
         imgSrc: require("../../assets/img/tacitus_drum_machine.png"),
         text:
@@ -108,7 +121,7 @@ const items = [
         ]
     },
     {
-        id:4,
+        id: 4,
         title: "ADMIN PANEL",
         imgSrc: require("../../assets/img/admin_Dashboard.jpg"),
         text:
@@ -123,11 +136,15 @@ const items = [
             {
                 name: "Firebase",
                 icon: "devicon-angularjs-plain"
+            },
+            {
+                name: "Angular Material Design",
+                icon: "devicon-angularjs-plain"
             }
         ]
     },
     {
-        id:5,
+        id: 5,
         title: "Chat Room",
         imgSrc: require("../../assets/img/chatroom.jpg"),
         text:
@@ -158,38 +175,7 @@ const items = [
         ]
     },
     {
-        id:6,
-        title: "Lorena Canals",
-        imgSrc: require("../../assets/img/lorena_canals.jpg"),
-        text:
-            "E-commerce development with Prestashop",
-        url: "https://lorenacanals.com",
-        tag: "prestashop",
-        stack: [
-            {
-                name: "Prestashop 1.6",
-                icon: "fa fa-code"
-            },
-            {
-                name: "CSS3",
-                icon: "fa fa-css3"
-            },
-            {
-                name: "Bootstrap",
-                icon: "devicon-bootstrap-plain"
-            },
-            {
-                name: "JQuery",
-                icon: "devicon-jquery-plain"
-            },
-            {
-                name: "MySql",
-                icon: "devicon-mysql-plain"
-            }
-        ]
-    },
-    {
-        id:7,
+        id: 7,
         title: "You Tube Dj Battle",
         imgSrc: require("../../assets/img/youtubedj.jpg"),
         text: "WebApp to make youtube playlists",
@@ -215,7 +201,7 @@ const items = [
         ]
     },
     {
-        id:8,
+        id: 8,
         title: "Der Die Das Game",
         imgSrc: require("../../assets/img/derdiedas.jpg"),
         text: "Javascript game for learning German",
@@ -239,8 +225,8 @@ const items = [
                 icon: "devicon-bootstrap-plain"
             }
         ]
-    },    {
-        id:9,
+    }, {
+        id: 9,
         title: "Le Parfum",
         imgSrc: require("../../assets/img/leparfum.png"),
         text: "This website was made with Vue js",
@@ -258,7 +244,7 @@ const items = [
         ]
     },
     {
-        id:10,
+        id: 10,
         title: "Envases Take Away",
         imgSrc: require("../../assets/img/envases.jpg"),
         text: "Desarrollo de tienda e-commerce con Prestashop.",
@@ -288,7 +274,7 @@ const items = [
         ]
     },
     {
-        id:11,
+        id: 11,
         title: "About me",
         imgSrc: require("../../assets/img/developer.png"),
         text:
@@ -321,15 +307,21 @@ const items = [
 const Gallery = () => {
     const [projects] = useState(items)
     const selectedTag = useSelector(state => state.selectedTag);
+    useEffect(() => {
+        TweenMax.from(
+            '.MuiCard-root',
+            { duration: 2, opacity: 0, y: 350, ease:"back", stagger: 0.45 }
+        );
 
+    }, []);
     return (
         <div className="gallery__container">
             {projects.filter((item) => {
-                if (selectedTag === 'all'){
-                    return item 
+                if (selectedTag === 'all') {
+                    return item
                 }
-                    return item.tag === selectedTag
-                }).map(item => (
+                return item.tag === selectedTag
+            }).map(item => (
                 <ProjectCard key={item.id} title={item.title} text={item.text} imgSrc={item.imgSrc} stack={item.stack} projectUrl={item.url} />
             ))}
         </div>

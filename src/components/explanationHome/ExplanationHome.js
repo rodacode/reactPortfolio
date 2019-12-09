@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './explanationHome.scss';
+import { TweenMax } from "gsap";
 
 
 const ExplanationHome = () => {
+    useEffect(() => {
+        TweenMax.from(
+            '.explanationDiv',
+            { duration: 6, opacity: 0, ease:'rough'}
+        );
+
+    }, []);
     return (
         <div className="explanationDiv">
             <div className="explanation__state">

@@ -37,7 +37,7 @@ const ProjectCard = (props) => {
                                                 {props.text}
                                         </Typography>
 
-                                        <strong>Stack:</strong>
+                                        <p className="stack">Stack:</p>
                                         <ul>
                                                 {props.stack.map((item, index) => (
                                                         <li key={index}><i className={item.icon}></i>{item.name}</li>
@@ -47,7 +47,7 @@ const ProjectCard = (props) => {
                                 </CardContent>
                         </CardActionArea>
                         <CardActions>
-                                <Button size="small" color="primary">
+                                <Button className="url__button" size="small" color="primary">
                                         <a href={props.projectUrl}>Visit site</a>
                                 </Button>
                         </CardActions>

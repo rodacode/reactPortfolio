@@ -1,6 +1,32 @@
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
+
 .MuiCardMedia-img {
-    object-fit: contain!important;
+    object-fit: contain !important;
+}
+
+.MuiTypography-h5 {
+    text-align: center;
+}
+
+.MuiCardContent-root {
+    .stack{
+        margin-top: 10px;
+        font-weight: bold;
+        font-size:  0.8rem;
+    }
+    ul {
+        li {
+            margin: 3px 0;
+
+            i {
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
+.url__button {
+    margin: 0 auto !important;
 }
