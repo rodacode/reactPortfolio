@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c0a62b40acf862c41387391fd8e9eed",
+    "revision": "0e85ad5f02f81152da3b7bd0876c52aa",
     "url": "/reactPortfolio/index.html"
   },
   {
-    "revision": "9877e5c032fa8f8611f0",
-    "url": "/reactPortfolio/static/css/main.4bf9876f.chunk.css"
+    "revision": "95644f837f0979db71d1",
+    "url": "/reactPortfolio/static/css/main.5c650cfc.chunk.css"
   },
   {
-    "revision": "88b88c952b82477d3d98",
-    "url": "/reactPortfolio/static/js/2.1abfd1d7.chunk.js"
+    "revision": "193bbad6efd298eec606",
+    "url": "/reactPortfolio/static/js/2.1c7bd81a.chunk.js"
   },
   {
-    "revision": "9877e5c032fa8f8611f0",
-    "url": "/reactPortfolio/static/js/main.898452da.chunk.js"
+    "revision": "95644f837f0979db71d1",
+    "url": "/reactPortfolio/static/js/main.51daf562.chunk.js"
   },
   {
     "revision": "c8586c4cd7e3202f79a2",
@@ -50,10 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c4e2b312717849447c428debbcdec5c3",
     "url": "/reactPortfolio/static/media/leparfum.c4e2b312.png"
-  },
-  {
-    "revision": "39b69b7a4b22485a9529da729c52f4df",
-    "url": "/reactPortfolio/static/media/lorena_canals.39b69b7a.jpg"
   },
   {
     "revision": "4eee72f9f0be5df4f569cf2fa601b33e",
