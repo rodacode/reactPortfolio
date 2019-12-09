@@ -6,6 +6,8 @@ import './header.scss';
 import Sidenav from '../sidenav/Sidenav';
 import { useSelector } from "react-redux";
 import { TweenMax } from "gsap";
+import CSSPlugin from 'gsap/CSSPlugin';
+const C = CSSPlugin;  // here is the gotcha....
 
 const ExplanationHeader = () => {
         return (

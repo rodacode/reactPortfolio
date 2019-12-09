@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 import ProjectCard from '../card/ProjectCard';
 import { useSelector } from "react-redux";
 import { TweenMax } from "gsap";
+import CSSPlugin from 'gsap/CSSPlugin';
 
 import './gallery.scss';
+const C = CSSPlugin;
 
 const items = [
     {
@@ -122,33 +124,10 @@ const items = [
     },
     {
         id: 4,
-        title: "ADMIN PANEL",
-        imgSrc: require("../../assets/img/admin_Dashboard.jpg"),
-        text:
-            "Admin Panel made with Angular 5 and Firebase",
-        url: "https://nicohardmeier.github.io/NgCMS_portfolio/",
-        tag: "angular",
-        stack: [
-            {
-                name: "Angular 5",
-                icon: "devicon-angularjs-plain"
-            },
-            {
-                name: "Firebase",
-                icon: "devicon-angularjs-plain"
-            },
-            {
-                name: "Angular Material Design",
-                icon: "devicon-angularjs-plain"
-            }
-        ]
-    },
-    {
-        id: 5,
         title: "Chat Room",
         imgSrc: require("../../assets/img/chatroom.jpg"),
         text:
-            "Simple chatrrom created with Angular, Firebase to manage login and Firestore to store messages",
+            "Simple chatroom created with Angular, Firebase to manage login and Firestore to store messages",
         url: "https://nicohardmeier.github.io/chatroom/",
         tag: "angular",
         stack: [
@@ -175,7 +154,7 @@ const items = [
         ]
     },
     {
-        id: 7,
+        id: 5,
         title: "You Tube Dj Battle",
         imgSrc: require("../../assets/img/youtubedj.jpg"),
         text: "WebApp to make youtube playlists",
@@ -201,32 +180,7 @@ const items = [
         ]
     },
     {
-        id: 8,
-        title: "Der Die Das Game",
-        imgSrc: require("../../assets/img/derdiedas.jpg"),
-        text: "Javascript game for learning German",
-        url: "https://nicohardmeier.github.io/der_die_das/",
-        tag: "javascript",
-        stack: [
-            {
-                name: "HTML5",
-                icon: "fa fa-html5"
-            },
-            {
-                name: "Javascript",
-                icon: "devicon-javascript-plain"
-            },
-            {
-                name: "CSS3",
-                icon: "fa fa-css3"
-            },
-            {
-                name: "Bootstrap",
-                icon: "devicon-bootstrap-plain"
-            }
-        ]
-    }, {
-        id: 9,
+        id: 6,
         title: "Le Parfum",
         imgSrc: require("../../assets/img/leparfum.png"),
         text: "This website was made with Vue js",
@@ -244,12 +198,12 @@ const items = [
         ]
     },
     {
-        id: 10,
+        id: 7,
         title: "Envases Take Away",
         imgSrc: require("../../assets/img/envases.jpg"),
         text: "Desarrollo de tienda e-commerce con Prestashop.",
         url: "http://www.envasestakeaway.com",
-        tag: "prestashop",
+        tag: "ecommerce",
         stack: [
             {
                 name: "Prestashop 1.6",
@@ -274,13 +228,17 @@ const items = [
         ]
     },
     {
-        id: 11,
+        id: 8,
         title: "About me",
         imgSrc: require("../../assets/img/developer.png"),
         text:
-            "Hi! My name is Nico, I'm a Front-end Developer, passionate about learning new technologies and frameworks. Hope you enjoy some of my works and don't hesitate in contact me. Have fun!",
+            "Hi! My name is Nico, I'm a Front-end Developer, passionate about learning new technologies and frameworks. Hope you enjoy some of my projects and don't hesitate in contact me. Have fun!",
         tag: "about",
         stack: [
+            {
+                name: "React Hooks",
+                icon: "devicon-react-plain"
+            },
             {
                 name: "Vue js",
                 icon: "devicon-vuejs-plain"
@@ -292,10 +250,6 @@ const items = [
             {
                 name: "Material Design",
                 icon: "devicon-angularjs-plain"
-            },
-            {
-                name: "JQuery",
-                icon: "devicon-jquery-plain"
             },
             {
                 name: "Bootstrap",
@@ -310,7 +264,7 @@ const Gallery = () => {
     useEffect(() => {
         TweenMax.from(
             '.MuiCard-root',
-            { duration: 2, opacity: 0, y: 350, ease:"back", stagger: 0.45 }
+            { duration: 2, opacity: 0, y: 350, ease: "back", stagger: 0.45 }
         );
 
     }, []);

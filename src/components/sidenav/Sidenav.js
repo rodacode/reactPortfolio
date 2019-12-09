@@ -74,12 +74,12 @@ const Sidenav = () => {
                 <li>
                     <div className="menu-item-container">
                         <span className="menu-item">
-                            <i className="devicon-javascript-plain"></i>Javascript
+                            <i className="devicon-javascript-plain"></i>E-commerce
                                         </span>
                         <Switch
-                            checked={selectedTag === 'javascript'}
+                            checked={selectedTag === 'ecommerce'}
                             onChange={setTag}
-                            value="javascript"
+                            value="ecommerce"
                             color="primary"
                         />
                     </div>
