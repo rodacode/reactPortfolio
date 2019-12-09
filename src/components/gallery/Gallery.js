@@ -274,7 +274,7 @@ const Gallery = () => {
                 }
                 return item.tag === selectedTag
             }).map(item => (
-                <ProjectCard key={item.id} title={item.title} text={item.text} imgSrc={item.imgSrc} stack={item.stack} projectUrl={item.url} />
+                <ProjectCard key={item.id} title={item.title} text={item.text} imgSrc={item.imgSrc} stack={item.stack} projectUrl={item.url} tag={item.tag}/>
             ))}
         </div>
     );

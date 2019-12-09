@@ -48,9 +48,9 @@ const ProjectCard = (props) => {
                                 </CardContent>
                         </CardActionArea>
                         <CardActions>
-                                <Button className="url__button" size="small" color="primary">
+                                { props.tag !== 'about' && <Button className="url__button" size="small" color="primary">
                                         <a href={props.projectUrl}>Visit site</a>
-                                </Button>
+                                </Button>}
                         </CardActions>
                 </Card>);
 }
