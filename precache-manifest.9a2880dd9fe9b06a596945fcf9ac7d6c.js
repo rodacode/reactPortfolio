@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "782705a8e185caca1176ad655fcbd491",
+    "revision": "f44e3a850a4be646d86461baf19b47e1",
     "url": "/reactPortfolio/index.html"
   },
   {
-    "revision": "0fda3aeb7ed525e82227",
-    "url": "/reactPortfolio/static/css/main.5c650cfc.chunk.css"
+    "revision": "a6c6f24db30216139086",
+    "url": "/reactPortfolio/static/css/main.91ff7efe.chunk.css"
   },
   {
-    "revision": "6904eeb62ca10d79c3af",
-    "url": "/reactPortfolio/static/js/2.24d91b59.chunk.js"
+    "revision": "23795b766e135744991c",
+    "url": "/reactPortfolio/static/js/2.a55264b4.chunk.js"
   },
   {
-    "revision": "0fda3aeb7ed525e82227",
-    "url": "/reactPortfolio/static/js/main.f8d4dafc.chunk.js"
+    "revision": "a6c6f24db30216139086",
+    "url": "/reactPortfolio/static/js/main.80435dcd.chunk.js"
   },
   {
     "revision": "c8586c4cd7e3202f79a2",
     "url": "/reactPortfolio/static/js/runtime-main.d5b23015.js"
-  },
-  {
-    "revision": "0e84586d2ee5803864e440273e169e38",
-    "url": "/reactPortfolio/static/media/admin_Dashboard.0e84586d.jpg"
   },
   {
     "revision": "dd56d855d3976ff6c4397ac55a5932d8",
@@ -30,10 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d3e9d9fd8c4f08f88bd89e543dd72d35",
     "url": "/reactPortfolio/static/media/chatroom.d3e9d9fd.jpg"
-  },
-  {
-    "revision": "3808b017f3b7023a472335fd78db1bce",
-    "url": "/reactPortfolio/static/media/derdiedas.3808b017.jpg"
   },
   {
     "revision": "5da48bb10532fb046907f81fef059693",

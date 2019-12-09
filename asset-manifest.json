@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/reactPortfolio/static/css/main.5c650cfc.chunk.css",
-    "main.js": "/reactPortfolio/static/js/main.f8d4dafc.chunk.js",
-    "main.js.map": "/reactPortfolio/static/js/main.f8d4dafc.chunk.js.map",
+    "main.css": "/reactPortfolio/static/css/main.91ff7efe.chunk.css",
+    "main.js": "/reactPortfolio/static/js/main.80435dcd.chunk.js",
+    "main.js.map": "/reactPortfolio/static/js/main.80435dcd.chunk.js.map",
     "runtime-main.js": "/reactPortfolio/static/js/runtime-main.d5b23015.js",
     "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.d5b23015.js.map",
-    "static/js/2.24d91b59.chunk.js": "/reactPortfolio/static/js/2.24d91b59.chunk.js",
-    "static/js/2.24d91b59.chunk.js.map": "/reactPortfolio/static/js/2.24d91b59.chunk.js.map",
+    "static/js/2.a55264b4.chunk.js": "/reactPortfolio/static/js/2.a55264b4.chunk.js",
+    "static/js/2.a55264b4.chunk.js.map": "/reactPortfolio/static/js/2.a55264b4.chunk.js.map",
     "index.html": "/reactPortfolio/index.html",
-    "precache-manifest.3918327a51457c2672161bfd50317bba.js": "/reactPortfolio/precache-manifest.3918327a51457c2672161bfd50317bba.js",
+    "precache-manifest.9a2880dd9fe9b06a596945fcf9ac7d6c.js": "/reactPortfolio/precache-manifest.9a2880dd9fe9b06a596945fcf9ac7d6c.js",
     "service-worker.js": "/reactPortfolio/service-worker.js",
-    "static/css/main.5c650cfc.chunk.css.map": "/reactPortfolio/static/css/main.5c650cfc.chunk.css.map",
-    "static/media/admin_Dashboard.jpg": "/reactPortfolio/static/media/admin_Dashboard.0e84586d.jpg",
+    "static/css/main.91ff7efe.chunk.css.map": "/reactPortfolio/static/css/main.91ff7efe.chunk.css.map",
     "static/media/App.scss": "/reactPortfolio/static/media/arrow.dd56d855.png",
     "static/media/chatroom.jpg": "/reactPortfolio/static/media/chatroom.d3e9d9fd.jpg",
-    "static/media/derdiedas.jpg": "/reactPortfolio/static/media/derdiedas.3808b017.jpg",
     "static/media/developer.png": "/reactPortfolio/static/media/developer.5da48bb1.png",
     "static/media/dub-siren.png": "/reactPortfolio/static/media/dub-siren.c532b91a.png",
     "static/media/envases.jpg": "/reactPortfolio/static/media/envases.0916317b.jpg",
@@ -26,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d5b23015.js",
-    "static/js/2.24d91b59.chunk.js",
-    "static/css/main.5c650cfc.chunk.css",
-    "static/js/main.f8d4dafc.chunk.js"
+    "static/js/2.a55264b4.chunk.js",
+    "static/css/main.91ff7efe.chunk.css",
+    "static/js/main.80435dcd.chunk.js"
   ]
 }
