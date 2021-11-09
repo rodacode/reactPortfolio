@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0452dc28a17f943c45cc7d9c56d82041",
+    "revision": "5d8727d8549e9fc6812cf8ee2ebac6b6",
     "url": "/reactPortfolio/index.html"
   },
   {
-    "revision": "f9d9ec791414fc17c439",
-    "url": "/reactPortfolio/static/css/main.ccb3343a.chunk.css"
+    "revision": "1827ad3b7f2231725d18",
+    "url": "/reactPortfolio/static/css/main.f0281f6e.chunk.css"
   },
   {
-    "revision": "5eee238cbb0125c7f9e9",
-    "url": "/reactPortfolio/static/js/2.310f940f.chunk.js"
+    "revision": "a470ec9ab7b46dce546d",
+    "url": "/reactPortfolio/static/js/2.50b051c1.chunk.js"
   },
   {
-    "revision": "f9d9ec791414fc17c439",
-    "url": "/reactPortfolio/static/js/main.67d67ef8.chunk.js"
+    "revision": "1827ad3b7f2231725d18",
+    "url": "/reactPortfolio/static/js/main.4493d408.chunk.js"
   },
   {
-    "revision": "c8586c4cd7e3202f79a2",
-    "url": "/reactPortfolio/static/js/runtime-main.d5b23015.js"
+    "revision": "01755022d680c59c325c",
+    "url": "/reactPortfolio/static/js/runtime-main.f769cc88.js"
   },
   {
     "revision": "dd56d855d3976ff6c4397ac55a5932d8",
     "url": "/reactPortfolio/static/media/arrow.dd56d855.png"
   },
   {
-    "revision": "d3e9d9fd8c4f08f88bd89e543dd72d35",
-    "url": "/reactPortfolio/static/media/chatroom.d3e9d9fd.jpg"
-  },
-  {
     "revision": "5da48bb10532fb046907f81fef059693",
     "url": "/reactPortfolio/static/media/developer.5da48bb1.png"
+  },
+  {
+    "revision": "ce8d2b78ab506af2f39a83f9c9b575c9",
+    "url": "/reactPortfolio/static/media/dps.ce8d2b78.png"
   },
   {
     "revision": "c532b91ac4e1793602ec6edb3e1aea5f",
@@ -48,12 +48,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactPortfolio/static/media/ng_cms.4eee72f9.jpg"
   },
   {
-    "revision": "22b38018810f5f5a96f313cdbb99fe64",
-    "url": "/reactPortfolio/static/media/portfolio.22b38018.png"
-  },
-  {
     "revision": "a28c39edf7bbba583d943e5f0d82a455",
     "url": "/reactPortfolio/static/media/tacitus_drum_machine.a28c39ed.png"
+  },
+  {
+    "revision": "60f4574a2bc730ff7c2281c721223aad",
+    "url": "/reactPortfolio/static/media/theCryptoRoad.60f4574a.png"
   },
   {
     "revision": "769e45f566d7d0968880bf58a1e34387",
