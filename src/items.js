@@ -1,4 +1,5 @@
-  const items=[{
+  const items=[
+    {
       title: "Tacitus Drum Machine",
       imgSrc: require("./assets/img/tacitus_drum_machine.png"),
       text:

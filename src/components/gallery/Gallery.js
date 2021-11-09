@@ -10,6 +10,47 @@ const C = CSSPlugin;
 const items = [
     {
         id: 0,
+        title: "The Crypto Road",
+        imgSrc: require("../../assets/img/theCryptoRoad.png"),
+        text: "App that uses the CoinGecko Open API, Lunar Crush API and Twitter API to retrieve Cryptocurrencies prices, news and tweets about Blockchain, Cryptocurrencies, Decentralization. The UI is created with Chakra UI.",
+        url: "https://thecryptoroad.com/",
+        tag: "react",
+        stack: [
+            {
+                name: "React",
+                icon: "devicon-react-plain"
+            },
+            {
+                name: "Redux",
+                icon: "devicon-react-plain"
+            },
+            {
+                name: "SASS",
+                icon: "devicon-sass-original"
+            }
+        ]
+    },
+    {
+        id: 1,
+        title: "DPS Rarity Tool",
+        imgSrc: require("../../assets/img/dps.png"),
+        text:
+            "App to search through The Damned Pirate Society NFT collection. Users are able to check each NFT and look at the rarity porcentage and skills scores, also has a ranking page. Over 1000 users.",
+        url: "http://dps-nine.vercel.app",
+        tag: "react",
+        stack: [
+            {
+                name: "React Hooks",
+                icon: "devicon-react-plain"
+            },
+            {
+                name: "Chakra UI",
+                icon: "devicon-css3-plain"
+            }
+        ]
+    },
+    {
+        id: 2,
         title: "NG CMS",
         imgSrc: require("../../assets/img/ng_cms.jpg"),
         text:
@@ -35,38 +76,9 @@ const items = [
             }
         ]
     },
+   
     {
-        id: 1,
-        title: "Portfolio",
-        imgSrc: require("../../assets/img/portfolio.png"),
-        text: "This website was made with React Hooks, Redux and Material UI",
-        url: "https://nicohardmeier.github.io/ytdj/",
-        tag: "react",
-        stack: [
-            {
-                name: "React Hooks",
-                icon: "devicon-react-plain"
-            },
-            {
-                name: "Redux",
-                icon: "devicon-react-plain"
-            },
-            {
-                name: "Material UI",
-                icon: "devicon-react-plain"
-            },
-            {
-                name: "GSAP Animations",
-                icon: "devicon-javascript-plain"
-            },
-            {
-                name: "SASS",
-                icon: "devicon-sass-original"
-            }
-        ]
-    },
-    {
-        id: 2,
+        id: 3,
         title: "Dub Siren",
         imgSrc: require("../../assets/img/dub-siren.png"),
         text: "Synth made with React and the web audio API using Howler library for managing the audio and Nexus UI for the user interface.",
@@ -92,7 +104,7 @@ const items = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         title: "Tacitus Drum Machine",
         imgSrc: require("../../assets/img/tacitus_drum_machine.png"),
         text:
@@ -122,37 +134,7 @@ const items = [
             },
         ]
     },
-    {
-        id: 4,
-        title: "Chat Room",
-        imgSrc: require("../../assets/img/chatroom.jpg"),
-        text:
-            "Simple chatroom created with Angular, Firebase to manage login and Firestore to store messages",
-        url: "https://nicohardmeier.github.io/chatroom/",
-        tag: "angular",
-        stack: [
-            {
-                name: "Angular 5",
-                icon: "devicon-angularjs-plain"
-            },
-            {
-                name: "Angular Material",
-                icon: "devicon-angularjs-plain"
-            },
-            {
-                name: "Bootstrap",
-                icon: "devicon-bootstrap-plain"
-            },
-            {
-                name: "Firebase",
-                icon: "devicon-angularjs-plain"
-            },
-            {
-                name: "Rxjs",
-                icon: "devicon-angularjs-plain"
-            }
-        ]
-    },
+
     {
         id: 5,
         title: "You Tube DJ",
@@ -228,7 +210,7 @@ const items = [
         title: "About me",
         imgSrc: require("../../assets/img/developer.png"),
         text:
-            "Hi! My name is Nico, I'm a Front-end Developer, passionate about learning new technologies and frameworks. Hope you enjoy some of my projects and don't hesitate in contact me. Have fun!",
+            "Hi! My name is Nico, I'm a Front-end Developer with more than 6 years experience, passionate about learning new technologies and frameworks. Hope you enjoy some of my projects and don't hesitate in contact me. Have fun!",
         tag: "about",
         stack: [
             {
