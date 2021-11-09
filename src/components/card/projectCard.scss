@@ -12,7 +12,8 @@ a {
 }
 
 .MuiCardContent-root {
-    min-height: 225px;
+    min-height: 255px;
+    position: relative;
     .stack {
         margin-top: 10px;
         font-weight: bold;
@@ -32,4 +33,6 @@ a {
 
 .url__button {
     margin: 0 auto !important;
+    position: absolute;
+    bottom: 5px;
 }

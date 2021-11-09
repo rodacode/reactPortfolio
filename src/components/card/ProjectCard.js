@@ -12,8 +12,9 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
         card: {
                 maxWidth: 345,
-                minWidth: 320,
-                margin: 10
+                width: 340,
+                margin: 10,
+                position: 'relative'
         },
 });
 
@@ -48,7 +49,7 @@ const ProjectCard = (props) => {
                                 </CardContent>
                         </CardActionArea>
                         <CardActions>
-                                { props.tag !== 'about' && <Button className="url__button" size="small" color="primary">
+                                { props.tag !== 'about' && <Button className="url__button" variant="outlined" size="small" color="primary">
                                         <a href={props.projectUrl}>Visit site</a>
                                 </Button>}
                         </CardActions>
