@@ -13,7 +13,7 @@ const Home = () => {
 
     const dispatch = useDispatch();
     return (
-        <div className="home__container container">
+        <div className="home__container">
             <Header />
             <div className="explanation-switch">
                 <div> Selected Tag: <strong>{selectedTag}</strong></div>
