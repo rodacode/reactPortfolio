@@ -36,7 +36,7 @@ const items = [
         imgSrc: require("../../assets/img/dps.png"),
         text:
             "App to search through The Damned Pirate Society NFT collection. Users are able to check each NFT and look at the rarity porcentage and skills scores, also has a ranking page. Over 1000 users.",
-        url: "http://dps-nine.vercel.app",
+        url: "https://dps-rarity-tool.netlify.app",
         tag: "react",
         stack: [
             {
